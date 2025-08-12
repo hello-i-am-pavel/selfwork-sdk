@@ -1,0 +1,22 @@
+{
+    "name": "hello-i-am-pavel/selfwork-sdk",
+    "description": "SDK for selfwork.ru API",
+    "autoload": {
+        "psr-4": {
+            "Hiap\\Selfwork\\": "src/"
+        }
+    },
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Pavel",
+            "email": "p.voronin97@gmail.com"
+        }
+    ],
+    "require": {
+        "php": "^8.2",
+        "guzzlehttp/guzzle": "^7.9",
+        "nesbot/carbon": "^3.10"
+    }
+}
